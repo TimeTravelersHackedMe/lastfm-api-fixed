@@ -1,0 +1,48 @@
+{
+	"name" : "lastfm-api-fixed",
+	"description" : "A Last.fm API client library wrapper with a simple and clean interface.",
+	"version" : "1.1.11",
+	"homepage" : "https://github.com/TimeTravelersHackedMe/lastfm-api-fixed",
+	"author": {
+		"name" : "Brian Zalewski",
+		"email" : "brian@megabyte.space",
+		"url" : "https://megabyte.space"
+	},
+	"contributors" : [
+		{
+			"name" : "Aliou Diallo",
+			"url" : "https://github.com/aliou"
+		},
+		{
+			"name" : "Jiri Bakker",
+			"url" : "https://github.com/JiriBakker"
+		},
+		{
+			"name": "Brian Zalewski",
+			"url": "https://github.com/TimeTravelersHackedMe"
+		}
+	],
+	"repository" : {
+		"type" : "git",
+		"url" : "git://github.com/TimeTravelersHackedMe/lastfm-api-fixed.git"
+	},
+	"bugs" : {
+		"url" : "https://github.com/TimeTravelersHackedMe/lastfm-api-fixed/issues"
+	},
+	"licenses" : [
+		{
+			"type" : "MIT",
+			"url" : "https://github.com/TimeTravelersHackedMe/lastfm-api-fixed/blob/master/LICENSE"
+		}
+	],
+	"main" : "index",
+	"dependencies" : {
+		"lastfm" : "0.8.x"
+	},
+	"engines" : {
+		"node" : ">=0.6.0"
+	},
+	"keywords" : [
+		"lastfm", "audioscrobbler", "scrobbling", "scrobble", "api"
+	]
+}
